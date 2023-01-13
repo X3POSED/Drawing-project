@@ -18,7 +18,7 @@ void setup() {
   String ls="Landscape or Square", p="portrait", DO="Display Orientation", intruct="Bru, turn your phun";
   //
   if ( appWidth < appHeight ) { //Declaring Landscape & square
-    println(instruct);
+    println("instruct");
   } else {
     println("Display: Good to Go");
     if ( appWidth > displayWidth ) { //Fitting CANVAS into Monitor Display
