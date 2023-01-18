@@ -1,5 +1,6 @@
 //Global Variables 
 int appWidth, appHeight;
+float yPos = 0.0;
 //
 void setup() {
   //Decaling Display Geometry: landscape, square, portrait
@@ -31,3 +32,9 @@ void setup() {
   }
 } //End setup
 //
+void draw() { //draw[] loops forever, until stopped
+ background(205);
+ yPos = yPos - 1.0;
+ 
+  
+} //End draw
